@@ -1,0 +1,204 @@
+
+body{
+    background-color: pink;
+    font-size: 40px;
+    font-family: Arial;
+    color: darkred;
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
+}
+
+p{
+    color: darkred;
+    font-size: 20px;
+}
+
+.myClass{
+    color: plum;
+    
+}
+
+.myClass2{
+    color:blueviolet;
+}
+
+.myClass3{
+    color:deeppink;
+}
+
+.myClass4{
+    color:cornflowerblue;
+}
+
+.myClass5{
+    color:darkgoldenrod;
+}
+
+.myClass6{
+    color:darkgreen;
+}
+
+.myClass7{
+    color: darkred;
+}
+
+#myID{
+    font-size: 25px;
+}
+
+div{
+    background-color:pink;
+    text-align: center;
+    font-size: 20px;
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+#fourthDiv{
+    background-color:#FFDFE1;
+    text-align:center;
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+
+#firstDiv{
+    background-color:lightblue;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
+#secondDiv{
+    background-color: pink;
+    background-image: url(/img/Cinnamoroll\ foto.webp);
+    background-size: 70%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+#thirdDiv{
+    background-color: pink;
+    background-image: url(/img/Cinnamorollgif2.gif);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#fifthDiv{
+    background-color:#E8ACFF;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blueviolet;
+    text-align:center;
+    grid-column: 2/5;
+    grid-row: 4/5;
+}
+
+#sixthDiv{
+    background-image: url(/img/MyMelodygif4.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#seventhDiv{
+    background-image: url(/img/MyMelody5.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 5/6;
+    grid-row: 3/4
+}
+
+#eighthDiv{
+    background-image: url(/img/Kuromigif2.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#ninthDiv{
+    background-image: url(/img/Kuromi.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+
+#tenthDiv{
+    background-color:khaki;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    grid-column: 2/5;
+    grid-row: 5/6;
+}
+
+#eleventhDiv{
+    background-color:lightgreen;
+    grid-column: 2/5;
+    grid-row: 6/7;
+}
+
+#twelvethDiv{
+    background-image: url(/img/Pompomgif.gif);
+    background-position: center;
+    background-size:50%;
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+#thirteenthDiv{
+    background-image: url(/img/Pompompurin3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    grid-column: 5/6;
+    grid-row: 5/6;
+}
+
+#fourteenthDiv{
+    background-image: url(/img/Pochaccogif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+#fifteenthDiv{
+    background-image: url(/img/Pochacco.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-column: 5/6;
+    grid-row: 6/7;
+}
+
+#sixteenthDiv{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    grid-column: 2/5;
+    grid-row: 7/8;
+}
+
+a {
+  /* letterkleur */
+  color:deeppink;
+}
+
+a:hover {
+  /* letterkleur */
+  color:pink;
+}

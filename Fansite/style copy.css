@@ -1,0 +1,61 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #ffe2f9
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+h1{
+  font-family:'Times New Roman', Times, serif;
+  color:#8f39a3;
+  text-align:center;
+}
+
+h2 {
+  text-align: center;
+  image-orientation: ;
+}
+
+h6{
+  font-family:'Courier New', Courier, monospace;
+  color:aquamarine;
+  text-align: center;
+}
+p{
+  font-family:'Courier New', Courier, monospace;
+  color: #8f39a3;
+  text-align:center;
+}
+
+a {
+  /* letterkleur */
+  color:#8f39a3
+}
+
+a:hover {
+  /* letterkleur */
+  color:#ffe2f9
+}
+
+#mijnDiv3 {
+  font-weight: bold;
+  background-color: azure;
+
+}
+
+#contactinformatie {
+  font-weight: bold;
+}
